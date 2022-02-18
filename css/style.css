@@ -49,10 +49,6 @@ body {
     box-sizing:border-box;    
 }
 
-.content > div:hover { 
-    border:1px solid black;
-}
-
 .d1 {
     text-align: left;
 }
@@ -80,4 +76,20 @@ body {
     color:aliceblue; 
     font-size: 5rem; 
     filter: drop-shadow(3px 3px 3px #333);
+}
+
+.hidden {
+    display: none;
+}
+
+.logIn {
+    width: 100px;
+}
+
+.logOut {
+    width: 100px;
+}
+
+.greetings {
+    text-align: left;
 }
